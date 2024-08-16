@@ -1,16 +1,111 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            max-width: 100vw;
+            max-height: 100vh;
+            background-color: gray;
+            padding: 0;
+            margin: 0;
+        }
+
+        .header{
+            background-color: #011e29;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+
+        main{
+            width: 100%;
+            height: 80%;
+            padding: 5px;
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+        .latest-news-section{
+            width: 23%;
+            height: 30%;
+            background-color: #f5f5f5;
+            border-radius: 10px;
+            text-align: center;
+            padding: 5px;
+            margin: 20px auto
+        }
+
+        .latest-news-section h3{
+            color: #011e29;
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+
+        .article_news{
+            background-color: #f5f5f5;
+            width: 46%;
+            height: 40%;
+            text-align: center;
+            padding: 5px;
+            border-radius: 10px;
+            margin: 20px auto;
+        }
+
+        .pictorial-news-section{
+            width: 23%;
+            background-color: #f5f5f5;
+            border-radius: 10px;
+            text-align: center;
+            padding: 5px;
+            margin: 20px auto;
+        }
+
+        .pictorial-news-section img{
+            width: 200px;
+            height: 250px;
+        }
+
+        .pictorial-news-section h3{
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <header class="header">
+        <h1>Shaw's News</h1>
+    </header>
+    
+    <main>
+        <div class="latest-news-section">
+            <h3>Latest News Articles</h3>
+            <ul>
+                <li>Article 1</li>
+                <li>Article 2</li>
+                <li>Article 3</li>
+            </ul>
+        </div>
+    
+        <div class="article_news">
+            <h2>Main Article</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate maxime sapiente assumenda rem, voluptatibus iure doloremque corrupti id soluta, omnis blanditiis itaque, laborum reprehenderit non sint porro quidem quibusdam at magnam tempora cum? Nobis dolores eligendi quis dicta amet voluptatibus nulla harum quae asperiores dolorum, repellat nesciunt nemo suscipit! Doloribus dolor culpa modi, et at delectus quia dicta obcaecati non reprehenderit a nisi neque aspernatur, asperiores repellat distinctio? Perspiciatis asperiores sint reprehenderit inventore corporis sapiente fuga dignissimos voluptatibus laudantium.
+            </p>
+        </div>
+    
+        <div class="pictorial-news-section">
+            <h3>Pictorial News</h3>
+            <img src="https://images.hindustantimes.com/img/2023/01/29/550x309/delhi_rains_1674974112847_1674981888135_1674981888135.jpeg" alt="Image_one" class="Image_one">
+    
+            <img src="https://images.hindustantimes.com/img/2023/01/29/550x309/ADANI-INDIA-GAUTAM-ADANI-0_1675011651023_1675011651023_1675011672003_1675011672003.JPG" alt="Image_one" class="Image_two">
+    
+            <img src="https://images.hindustantimes.com/img/2023/01/29/550x309/FRANCE-REFORM-PENSIONS-31_1675022359706_1675022359706_1675022383851_1675022383851.JPG" alt="Image_one" class="Image_three">
+        </div>
+    </main>
 </body>
-
 </html>
